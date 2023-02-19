@@ -4,7 +4,9 @@
 # Cerință
 Dându-se de la tastatură comenzi de adăugare/ștergere a unor clădiri sau a unor persoane cu statuturi diferite în acele clădiri, să se facă o statistică asupra anumitor atribute ce țin de anumite tipuri de persoane sau de tipul așezării, așa cum este spus în secțiunea de Date de ieșire. Ceea ce se vrea este crearea unei așezări, care poate fi sat, oraș sau capitală, depinzând de numărul și de tipul clădirilor care se dau de la tastatură să fie adăugate în acea așezare.
 
-# Date de intrare 
+# Date de intrare
+![image](https://user-images.githubusercontent.com/108874388/219981035-cdd32fa0-1496-4aab-82a4-9d5e32d52dec.png)
+
 Se vor linii până la EOF. O linie este alcătuită din următoarele elemente:
 - primul cuvânt va fi acțiunea pe care vreți să o faceți. Această comandă poate fi add sau remove. Dacă această comandă este add atunci se va face o adăugare, iar dacă este remove se va face o ștergere.
 - al doilea cuvânt este ceea ce vreți să adăugați sau să ștergeți. Clădirile doar se pot adăuga, nu și șterge, iar persoanele suportă ambele comenzi.
