@@ -8,8 +8,8 @@ Dându-se de la tastatură comenzi de adăugare/ștergere a unor clădiri sau a 
 Se vor linii până la EOF. O linie este alcătuită din următoarele elemente:
 - primul cuvânt va fi acțiunea pe care vreți să o faceți. Această comandă poate fi add sau remove. Dacă această comandă este add atunci se va face o adăugare, iar dacă este remove se va face o ștergere.
 - al doilea cuvânt este ceea ce vreți să adăugați sau să ștergeți. Clădirile doar se pot adăuga, nu și șterge, iar persoanele suportă ambele comenzi.
-        - dacă vrem să adăugăm o clădire, acest al doilea cuvânt poate fi unul din cuvintele CityHall, Hospital, PoliceStation, House sau Block.
-        - dacă vrem să adăugăm sau să ștergem o anumită persoană dintr-o clădire, acest al doilea cuvânt poate fi unul din cuvintele coordinator, employee sau citizen. Pentru fiecare tip de clădire, aceste cuvinte au semnificații diferite astfel:
+        * dacă vrem să adăugăm o clădire, acest al doilea cuvânt poate fi unul din cuvintele CityHall, Hospital, PoliceStation, House sau Block.
+        * dacă vrem să adăugăm sau să ștergem o anumită persoană dintr-o clădire, acest al doilea cuvânt poate fi unul din cuvintele coordinator, employee sau citizen. Pentru fiecare tip de clădire, aceste cuvinte au semnificații diferite astfel:
                 - coordinator pot fi doar primarii, proprietarii de case și administratorii de bloc.
                 - employee pot fi doar doctorii și polițiștii.
                 - citizen pot fi doar angajații primăriei, pacienții spitalului, persoanele arestate, locuitorii caselor și locuitorii blocurilor.
