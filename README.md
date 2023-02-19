@@ -1,10 +1,10 @@
 # SimCity
 
 
-#Cerință
+# Cerință
 Dându-se de la tastatură comenzi de adăugare/ștergere a unor clădiri sau a unor persoane cu statuturi diferite în acele clădiri, să se facă o statistică asupra anumitor atribute ce țin de anumite tipuri de persoane sau de tipul așezării, așa cum este spus în secțiunea de Date de ieșire. Ceea ce se vrea este crearea unei așezări, care poate fi sat, oraș sau capitală, depinzând de numărul și de tipul clădirilor care se dau de la tastatură să fie adăugate în acea așezare.
 
-#Date de intrare 
+# Date de intrare 
 Se vor linii până la EOF. O linie este alcătuită din următoarele elemente:
 - primul cuvânt va fi acțiunea pe care vreți să o faceți. Această comandă poate fi add sau remove. Dacă această comandă este add atunci se va face o adăugare, iar dacă este remove se va face o ștergere.
 - al doilea cuvânt este ceea ce vreți să adăugați sau să ștergeți. Clădirile doar se pot adăuga, nu și șterge, iar persoanele suportă ambele comenzi.
@@ -18,7 +18,7 @@ Se vor linii până la EOF. O linie este alcătuită din următoarele elemente:
         - dacă vrem să adăugăm o persoană, următoarele date de la intrare vor fi numele persoanei, vârsta persoanei, salariul persoanei și numele clădirii în care vrem să adăugăm acea persoană. Este clar acest lucru depinde de al doilea parametru. Ca exemplu, dacă avem o clădire numită ReginaMaria, aceasta fiind un spital, iar linia noastră este add citizen Andrei 23 222.22 ReginaMaria, este clar că Andrei va fi pacient al spitalului deoarece el are statutul de citizen, iar citizenii unui spital sunt pacienții, doctorii fiind considerați employee. Dacă voiam ca persoana să fie doctor în spital, am fi avut o linie de genul add employee Andrei 23 222.22 ReginaMaria.
         - dacă vrem să ștergem o persoană, următoarele date de la intrare vor fi numele persoanei și numele clădirii. Vor considera că nu există citizen sau employee cu același nume în aceeași instituție. Exemplificând în continuare, dacă avem o linie de forma remove citizen Andrei ReginaMaria se va elimina pacientul Andrei din spitalul ReginaMaria.
 
-#Date de ieșire 
+# Date de ieșire 
 La iesire vom avea o statistică a așezării create astfel:
 
 Type: tipul așezării. Acest tip poate fi "Village", "Town" sau "Capital". Pentru a știi ce tip de așezare avem, se vor va trebui:
